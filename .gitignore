@@ -1,0 +1,32 @@
+# Xcode build output
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Xcode user-specific files
+*.xcuserstate
+*.xcscheme
+xcuserdata/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Compiled binaries (keep source tools, ignore build products)
+build/Build/
+build/Logs/
+build/ModuleCache.noindex/
+build/CompilationCache.noindex/
+build/info.plist
+
+# Temporary files
+*.tmp
+*.log

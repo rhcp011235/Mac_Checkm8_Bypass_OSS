@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000001 /* main.swift */; };
+		AA000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000002 /* AppDelegate.swift */; };
+		AA000003 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000003 /* MainViewController.swift */; };
+		AA000004 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000004 /* DeviceManager.swift */; };
+		AA000005 /* ActivationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000005 /* ActivationEngine.swift */; };
+		AA000010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB000010 /* Assets.xcassets */; };
+		AA000011 /* Tools in Resources */ = {isa = PBXBuildFile; fileRef = AB000011 /* Tools */; };
+		AA000012 /* ref in Resources */ = {isa = PBXBuildFile; fileRef = AB000012 /* ref */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB000001 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB000003 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AB000004 /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		AB000005 /* ActivationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationEngine.swift; sourceTree = "<group>"; };
+		AB000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB000011 /* Tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tools; sourceTree = "<group>"; };
+		AB000012 /* ref */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ref; sourceTree = "<group>"; };
+		AB000013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC000001 /* CheckM8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckM8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA000000 = {
+			isa = PBXGroup;
+			children = (
+				CA000001 /* CheckM8 */,
+				CA000099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA000001 /* CheckM8 */ = {
+			isa = PBXGroup;
+			children = (
+				AB000001 /* main.swift */,
+				AB000002 /* AppDelegate.swift */,
+				AB000003 /* MainViewController.swift */,
+				AB000004 /* DeviceManager.swift */,
+				AB000005 /* ActivationEngine.swift */,
+				CA000002 /* Resources */,
+			);
+			path = CheckM8;
+			sourceTree = "<group>";
+		};
+		CA000002 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB000010 /* Assets.xcassets */,
+				AB000013 /* Info.plist */,
+				AB000011 /* Tools */,
+				AB000012 /* ref */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CA000099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC000001 /* CheckM8.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA000001 /* CheckM8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA000001 /* Build configuration list for PBXNativeTarget "CheckM8" */;
+			buildPhases = (
+				FA000001 /* Sources */,
+				BA000001 /* Frameworks */,
+				FA000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckM8;
+			productName = CheckM8;
+			productReference = AC000001 /* CheckM8.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = EA000000 /* Build configuration list for PBXProject "CheckM8" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA000000;
+			productRefGroup = CA000099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA000001 /* CheckM8 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000010 /* Assets.xcassets in Resources */,
+				AA000011 /* Tools in Resources */,
+				AA000012 /* ref in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001 /* main.swift in Sources */,
+				AA000002 /* AppDelegate.swift in Sources */,
+				AA000003 /* MainViewController.swift in Sources */,
+				AA000004 /* DeviceManager.swift in Sources */,
+				AA000005 /* ActivationEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGNING_REQUIRED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CheckM8/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rhcp011235.CheckM8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+			};
+			name = Debug;
+		};
+		EA000003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGNING_REQUIRED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CheckM8/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rhcp011235.CheckM8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = NO;
+			};
+			name = Release;
+		};
+		EA000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA000000 /* Build configuration list for PBXProject "CheckM8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA000004 /* Debug */,
+				EA000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA000001 /* Build configuration list for PBXNativeTarget "CheckM8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA000002 /* Debug */,
+				EA000003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = DA000000 /* Project object */;
+}
