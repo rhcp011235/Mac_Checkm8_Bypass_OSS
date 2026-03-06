@@ -9,17 +9,12 @@ A macOS tool for bypassing iCloud activation on jailbroken iOS devices. Connects
 - macOS 12 Monterey or later (Apple Silicon or Intel)
 - Xcode command line tools installed
 - Target device must be **jailbroken** with SSH enabled (root / alpine)
-- Find My iPhone (FMI) must be **disabled**
 
 ---
 
-## Supported Devices
+## Supported Devices - A5-A11
 
-**iPhones:** 5S through 16 series (including SE 1/2/3, X, XS, XR, XS Max)
-
-**iPads:** iPad 2–10, iPad Air 1–5 (M2), iPad Mini 1–6, iPad Pro 9.7" through 13" (M4)
-
-**iPod Touch:** 4th through 7th generation
+**iPhones:** iPhone 4s - iPhoneX
 
 ---
 
